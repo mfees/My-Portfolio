@@ -12,6 +12,10 @@ h1 {
     margin-bottom: 0.8em;
 }
 
+hr {
+    width: 60%;
+}
+
 .navigation {
     background-color: #000;
     opacity: 0.85;
@@ -26,7 +30,7 @@ h1 {
 .nav-rightside { 
     display: inline-block;
     float: right;
-    padding-top: 1.5em;
+    padding-top: 2.5em;
     
     .main-nav {
         list-style: none;
@@ -51,15 +55,19 @@ h1 {
     }
     
     .contact-btn {
-        color: $nav-white;
-        border: 1px solid $nav-white;
-        padding: 1em 2em;
+        padding: 0;
         margin-left: 4em;
-    }
-    
-    .contact-btn:hover {
-        color: #000;
-        background-color: $nav-white;
+        
+        a {
+            color: $nav-white;
+            border: 1px solid $nav-white;
+            padding: 1em 2em;
+        }
+        
+        a:hover {
+            color: #000;
+            background-color: $nav-white;
+        }
     }
 }
 
@@ -73,6 +81,9 @@ h1 {
     .image {
         background-image: url(../assets/images/banner-pic.jpg);
         background-size: cover;
+        background-position-x: 50%;
+        background-position-y: 50%;
+        height: 100vh;
         background-repeat: no-repeat;
     }
     
@@ -90,9 +101,32 @@ h1 {
             margin-bottom: 2em;
         }
         
+        img {
+            display: block;            
+            margin: 0 auto 1em;
+        }
+        
         .button-group {
             text-align: center;
+            
+            .button {
+                display: inline-block;
+                margin-right: 1em;
+                
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    padding: 1em 2em;
+                    border: 1px solid white;
+                }
+                
+                a:hover {
+                    color: #989898;
+                    background-color: #fff;
+                }
+            }
         }
+    }
 //            
 //            .button {
 //                display: inline-block;
