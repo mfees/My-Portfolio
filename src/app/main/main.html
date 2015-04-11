@@ -1,77 +1,116 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
 <section id="banner-section" class="banner">
-    <div ng-include="'components/navbar/navbar.html'"></div>
-    <div>
-        <h1>Designer  Developer</h1>
-        <p>A Colorado native, A Florida resident &amp; <br/>A desire to make the world usable and beautiful</p>
-        <hr>
-        <div class="button">Design</div>
-        <div class="button">Development</div>
+    <div class="image">
+        <div class="banner-content">
+            <img src="../../assets/images/heading.png">
+<!--            <h1>Designer  Developer</h1>-->
+            <p>A Colorado native, A Florida resident &amp; <br/>A desire to make the world usable and beautiful</p>
+            <hr>
+            <div class="button-group">
+                <div class="button"><a href="#">Design</a></div>
+                <div class="button"><a href="#">Development</a></div>
+            </div>    
+        </div>    
     </div>
 </section>
-<section id="about-section" class="about-me">
-    <h2>About Me</h2>
-    <img src="#">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus non augue eu placerat. Phasellus facilisis pulvinar magna sed feugiat. Duis fringilla orci ut nibh lobortis, eu pharetra nisi vulputate. Nullam posuere augue quis pharetra consectetur. Nam porttitor nec lectus blandit malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-    <div class="button">Resume</div>
-</section>
-<section id="work-section" class="work">
-    <h2>Work</h2>
-    <hr>
-</section>
-<section id="skills-section" class="skills">
+<div class="content-container">
+    <section id="about-section" class="about-me row">
+        <h2>About Me</h2>
+        <hr>
+        <aside class="col-sm-12 col-md-4 col-lg-3">
+            <img src="../../assets/images/me.png">
+        </aside>
+        <div class="about-text col-sm-12 col-md-8 col-lg-9">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus non augue eu placerat. Phasellus facilisis pulvinar magna sed feugiat. Duis fringilla orci ut nibh lobortis, eu pharetra nisi vulputate. Nullam posuere augue quis pharetra consectetur. Nam porttitor nec lectus blandit malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+            <div class="button">
+                <a href="#">Resume</a>
+            </div>
+        </div>    
+    </section>
+    <section id="work-section" class="work">
+        <h2>Work</h2>
+        <hr>
+    </section>
+</div>    
+<section id="skills-section" class="skills row">
     <h2>Skills</h2>
-    <article class="individual-skill">
-        <div class="skill-container">
-            <img src="#">
-            <h3>Title</h3>
-            <p>Climb leg attack feet, or sleep on keyboard burrow under covers, but hide when guests come over intently sniff hand, for chew foot. Climb leg attack feet, or sleep on keyboard</p>
-        </div>
-    </article>
-    <article class="individual-skill">
-        <div class="skill-container">
-            <img src="#">
-            <h3>Title</h3>
-            <p>Climb leg attack feet, or sleep on keyboard burrow under covers, but hide when guests come over intently sniff hand, for chew foot. Climb leg attack feet, or sleep on keyboard</p>
-        </div>
-    </article>
-    <article class="individual-skill">
-        <div class="skill-container">
-            <img src="#">
-            <h3>Title</h3>
-            <p>Climb leg attack feet, or sleep on keyboard burrow under covers, but hide when guests come over intently sniff hand, for chew foot. Climb leg attack feet, or sleep on keyboard</p>
-        </div>
-    </article>
-    <article class="individual-skill">
-        <div class="skill-container">
-            <img src="#">
-            <h3>Title</h3>
-            <p>Climb leg attack feet, or sleep on keyboard burrow under covers, but hide when guests come over intently sniff hand, for chew foot. Climb leg attack feet, or sleep on keyboard</p>
-        </div>
-    </article>
-    <article class="individual-skill">
-        <div class="skill-container">
-            <img src="#">
-            <h3>Title</h3>
-            <p>Climb leg attack feet, or sleep on keyboard burrow under covers, but hide when guests come over intently sniff hand, for chew foot. Climb leg attack feet, or sleep on keyboard</p>
-        </div>
-    </article>
-    <article class="individual-skill">
-        <div class="skill-container">
-            <img src="#">
-            <h3>Title</h3>
-            <p>Climb leg attack feet, or sleep on keyboard burrow under covers, but hide when guests come over intently sniff hand, for chew foot. Climb leg attack feet, or sleep on keyboard</p>
-        </div>
-    </article>
-</section>
+    <hr>
+    <div class="skill-group row">
+        <article class="individual-skill col-sm-12 col-md-6 col-lg-4">
+            <div class="skill-container">
+                <img src="#">
+                <h3>Title</h3>
+                <p>Climb leg attack feet, or sleep on keyboard burrow under covers, but hide when guests come over intently sniff hand, for chew foot. Climb leg attack feet, or sleep on keyboard</p>
+            </div>
+        </article>
+        <article class="individual-skill col-sm-12 col-md-6 col-lg-4">
+            <div class="skill-container">
+                <img src="#">
+                <h3>Title</h3>
+                <p>Climb leg attack feet, or sleep on keyboard burrow under covers, but hide when guests come over intently sniff hand, for chew foot. Climb leg attack feet, or sleep on keyboard</p>
+            </div>
+        </article>
+        <article class="individual-skill col-sm-12 col-md-6 col-lg-4">
+            <div class="skill-container">
+                <img src="#">
+                <h3>Title</h3>
+                <p>Climb leg attack feet, or sleep on keyboard burrow under covers, but hide when guests come over intently sniff hand, for chew foot. Climb leg attack feet, or sleep on keyboard</p>
+            </div>
+        </article>
+        <article class="individual-skill col-sm-12 col-md-6 col-lg-4">
+            <div class="skill-container">
+                <img src="#">
+                <h3>Title</h3>
+                <p>Climb leg attack feet, or sleep on keyboard burrow under covers, but hide when guests come over intently sniff hand, for chew foot. Climb leg attack feet, or sleep on keyboard</p>
+            </div>
+        </article>
+        <article class="individual-skill col-sm-12 col-md-6 col-lg-4">
+            <div class="skill-container">
+                <img src="#">
+                <h3>Title</h3>
+                <p>Climb leg attack feet, or sleep on keyboard burrow under covers, but hide when guests come over intently sniff hand, for chew foot. Climb leg attack feet, or sleep on keyboard</p>
+            </div>
+        </article>
+        <article class="individual-skill col-sm-12 col-md-6 col-lg-4">
+            <div class="skill-container">
+                <img src="#">
+                <h3>Title</h3>
+                <p>Climb leg attack feet, or sleep on keyboard burrow under covers, but hide when guests come over intently sniff hand, for chew foot. Climb leg attack feet, or sleep on keyboard</p>
+            </div>
+        </article>
+    </div>    
+</section>    
 <footer>
-    <div class="contact">Contact me for more information</div>
+    <div class="contact">
+        <h3>Contact me for more information</h3>
+        <div class="contact-buttons">
+            <a href="https://github.com/mfees">
+                <img src="../../assets/images/github.png">
+            </a>  
+            <a href="https://www.linkedin.com/in/madisonfees">
+                <img src="../../assets/images/linkedin.png">
+            </a>    
+            <a href="https://www.facebook.com/maddie.fees">
+                <img src="../../assets/images/facebook.png">
+            </a>
+            <a href="https://twitter.com/Maddie_T_Fees">
+                <img src="../../assets/images/twitter.png">
+            </a>
+            <a href="https://dribbble.com/madd_design">
+                <img src="../../assets/images/dribbble.png">
+            </a>
+            <a href="mailto:madison.fees90@gmail.com">
+                <img src="../../assets/images/email.png">
+            </a>
+        </div>
+    </div>    
     <nav>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Work</li>
-            <li>Skills</li>
-            <li>Contact</li>
+            <li class="first-link"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 </footer>
