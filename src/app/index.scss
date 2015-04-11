@@ -169,32 +169,19 @@ hr {
 .content-container {
     width: 80%;
     margin: 0 auto;
-
-    .about-me {
-        width: 80%;
-        margin: 0 auto;
-        overflow: hidden;
         
-        aside {
-            width: 25%;
-            float: left;
+    .about-text {
+
+        a {
+            color: $text;
+            text-decoration: none;
+            padding: 1em 2em;
+            border: 1px solid $text;
         }
-
-        .about-text {
-            width: 75%;
-            float: right;
-            padding-left: 2em;
         
-            a {
-                color: $text;
-                text-decoration: none;
-                padding: 1em 2em;
-                border: 1px solid $text;
-            }
-            a:hover {
-                color: #fff;
-                background-color: $text;
-            }
+        a:hover {
+            color: #fff;
+            background-color: $text;
         }
     }
 }
@@ -206,6 +193,17 @@ hr {
     h2 {
         color: #eee;
         margin-top: 0;
+    }
+    
+    .skill-group {
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .skill-container {
+        background-color: #eee;
+        padding: 3em;
+        margin-bottom: 2.2em;
     }
 }
 
